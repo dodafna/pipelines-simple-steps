@@ -2,8 +2,8 @@ resources:
   - name: app
     type: GitRepo
     configuration:
-      gitProvider: git
-      path: BatelT/pipelines-simple-steps
+      gitProvider: github_test
+      path: dodafna/pipelines-simple-steps
       branches:
         include: master
 pipelines:
